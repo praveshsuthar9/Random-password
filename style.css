@@ -84,4 +84,29 @@ body {
   body {
     width: auto;
   }
+
+  .generate-container button{
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 379px) {
+
+  .generate-container h2{
+    font-size: 24px;
+  }
+  .generate-container h1{
+    font-size: 26px;
+  }
+  .generate-container hr{
+    width: 70%;
+  }
+  .generate-container button{
+    font-size: 14px;
+
+  }
+  .generate-container input{
+    font-size: 16px;
+  }
 }
